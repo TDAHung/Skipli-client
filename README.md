@@ -9,3 +9,5 @@ Run the command:
 # STEP 3:
 Run the command:
 ### npm run start
+# STEP 4:
+After all steps the final app should run at the url http://localhost:3000
