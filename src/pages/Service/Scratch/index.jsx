@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from '../../../components/Card';
-import { BsFacebook } from 'react-icons/bs';
+import { BsFacebook, BsInstagram, BsTwitter } from 'react-icons/bs';
 
 const ScratchPage = () => {
   return (
@@ -15,6 +15,20 @@ const ScratchPage = () => {
           Icon={BsFacebook}
           to='facebook'
           title='Facebook post'
+          description='Generate caption for a post'
+          isHasBorder={true}
+        />
+        <Card
+          Icon={BsInstagram}
+          to='instagram'
+          title='Instagram post'
+          description='Generate caption for a post'
+          isHasBorder={true}
+        />
+        <Card
+          Icon={BsTwitter}
+          to='twitter'
+          title='Twitter post'
           description='Generate caption for a post'
           isHasBorder={true}
         />

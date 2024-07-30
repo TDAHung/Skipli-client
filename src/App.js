@@ -1,5 +1,6 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
+import { Toaster } from 'react-hot-toast';
 import Loading from './components/Loading';
 import AuthLayout from './layouts/AuthLayout';
 import MainLayout from './layouts/MainLayout';
@@ -10,6 +11,7 @@ import { NotFound, Profile, Service } from './routes';
 function App() {
   return (
     <>
+      <Toaster />
       <React.Suspense fallback={<Loading />}>
         <Routes>
           <Route element={<AuthLayout />}>
@@ -33,6 +35,7 @@ function App() {
                 <Route index element={<Profile />}></Route>
               </Route>
             </Route>
+            <Route path={'*'} element={<NotFound />}></Route>
           </Route>
           <Route path={'*'} element={<NotFound />}></Route>
         </Routes>

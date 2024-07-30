@@ -1,7 +1,14 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const InspirePage = () => {
+  const navigate = useNavigate();
+  const [topic, setTopic] = useState('');
+
+  const handleGenerateIdea = () => {
+    navigate('idea', { state: { topic } });
+  }
+
   return (
     <div className='flex-1 p-20'>
       <div className='w-fit max-w-[430px]'>
@@ -17,14 +24,16 @@ const InspirePage = () => {
           <input
             id='topic'
             type='text'
+            value={topic}
+            onChange={(e) => setTopic(e.target.value)}
             placeholder='Enter a topic'
             className='border rounded-md px-3 py-2 min-w-[400px]'
           />
         </div>
         <div className='flex justify-end my-2'>
-          <Link to={'idea'} className='py-3 px-6 bg-[#E8EDFF] rounded-md hover:opacity-90'>
+          <button onClick={handleGenerateIdea} className='py-3 px-6 bg-[#E8EDFF] rounded-md hover:opacity-90'>
             Generate ideas
-          </Link>
+          </button>
         </div>
       </div>
     </div>
