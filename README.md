@@ -1,4 +1,4 @@
-<img width="1376" alt="Screenshot 2024-07-31 at 10 35 24" src="https://github.com/user-attachments/assets/b7e0ff58-29ef-4f15-a375-fc2d5f081ae2"><img width="1378" alt="Screenshot 2024-07-31 at 10 35 03" src="https://github.com/user-attachments/assets/a8f9b1fc-8787-4eca-9005-1f36aea435b0"><img width="1381" alt="Screenshot 2024-07-31 at 10 42 40" src="https://github.com/user-attachments/assets/b0e54767-f8fd-4840-aeb5-66d935728cef"><img width="1380" alt="Screenshot 2024-07-31 at 10 34 42" src="https://github.com/user-attachments/assets/897f284b-1ecd-453f-a3a0-9cb0a5823103"><img width="1378" alt="Screenshot 2024-07-31 at 10 33 58" src="https://github.com/user-attachments/assets/e7ec587b-f4d4-434b-924f-9ba0bbb37e9b"># Skipli-client
+# Skipli-client
 Please go to this link to clone the Server first and follow that link's tutorial to start the server: https://github.com/TDAHung/Skipli-server.git
 # STEP 1:
 Make sure your computer has node from v20
