@@ -34,7 +34,7 @@ Screenshot of the client side:
 - Save any captions, they will appear in the Profile screen:
 <img width="1381" alt="Screenshot 2024-07-31 at 10 42 40" src="https://github.com/user-attachments/assets/839b6420-294b-4fb4-8f25-febc561e8780">
 - Share caption to the email user provides
-<img width="1376" alt="Screenshot 2024-07-31 at 10 35 24" src="https://github.com/user-attachments/assets/2a8b6258-4be8-4cb8-8b0a-59185af73ba0">
+<img width="1378" alt="Screenshot 2024-07-31 at 10 35 03" src="https://github.com/user-attachments/assets/64eeb103-9857-49ed-bbe5-5f2934a42607">
 - It should be in the mail of user
 <img width="1376" alt="Screenshot 2024-07-31 at 10 35 24" src="https://github.com/user-attachments/assets/27fd852d-a573-4b03-b334-5f11f3bd6191">
 
